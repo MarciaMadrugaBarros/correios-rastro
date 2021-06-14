@@ -1,0 +1,24 @@
+{
+  "name": "correios-rastro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist && mkdir dist",
+    "start": "pm2 start pm2.yml",
+    "stop": "pm2 stop pm2.yml",
+    "delete": "pm2 delete pm2.yml",
+    "restart": "pm2 restart pm2.yml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "pm2": "^5.1.0",
+    "sequelize": "^6.6.2"
+  }
+}
